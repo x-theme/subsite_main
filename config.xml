@@ -1,14 +1,19 @@
 <?xml version="1.0"?>
-<config>	
+<config>
+	<id>subsite main 1</id>
+	<type>theme</type>
 	<view>none</view>
+	<category>company</category>
 	<name>
 		<en>Sub Site Main Theme</en>
 		<ko>서브 사이트 메인 테마</ko>
 	</name>
 	<version>0.1</version>
+	<author>JaeHo Song</author>
+	<email>thruthesky@gmail.com</email>
 	<short>
-		<en></en>
-		<ko></ko>
+		<en>Subsite Main</en>
+		<ko>Subsite Main</ko>
 	</short>
 	<detail>
 		<en></en>
