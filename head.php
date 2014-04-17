@@ -10,7 +10,7 @@
 				
 					<table cellpadding='0' cellspacing='0'>
 						<tr>
-							<td><a href="<?php echo G5_URL ?>"><img src='<?=x::url_theme()?>/img/logo1.png'></a></td>
+							<td><a href="<?=g::url()?>"><img src='<?=x::url_theme()?>/img/logo1.png'></a></td>
 							<td>
 								<div class='text'>
 								<a href="<?=page('service')?>">
