@@ -35,11 +35,16 @@
 				<?include x::theme('menu.main')?>
 			</div>
 			<div id='search-box'>
-				<fieldset id="search-fieldset">
-					<form name="fsearchbox" method="get" action="<?php echo G5_BBS_URL ?>/search.php" onsubmit="return fsearchbox_submit(this);">
-					<input type="hidden" name="sfl" value="wr_subject||wr_content">
-					<input type="hidden" name="sop" value="and">
-					<input type="text" name="stx" id="search_txtbox" maxlength="20" placeholder='Search'>
+				<fieldset id="search-fieldset">					
+					<form name="gallery_1_search_form" method="get" action="<?=x::url()?>" onsubmit="return fsearchbox_submit(this);">
+					<input type="hidden" name="module" value="post">
+					<input type="hidden" name="action" value="search">
+					<input type='hidden' name='search_subject' value=1 />
+					<input type='hidden' name='search_content' value=1 />
+					
+					<input type="text" name="key" id="search_txtbox" maxlength="20" placeholder='검색어를 입력해 주세요.' autocomplete='off'>
+					
+					
 					<input type="image" id="search_submit" src="<?=x::url_theme()?>/img/search.png">
 					</form>
 
